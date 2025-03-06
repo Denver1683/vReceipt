@@ -5,7 +5,7 @@ vReceipt is an **eco-friendly virtual receipt app** designed to reduce paper was
 ---
 
 ## 🛑 Important Notice
-⚠️ **Unauthorized use of vReceipt is strictly prohibited.**
+⚠️ **Unauthorized use of vReceipt, including redistribution and commercial use is strictly prohibited. vReceipt is posted here for educational and personal portfolio purpose only**
 
 ---
 
