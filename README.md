@@ -59,6 +59,8 @@ There are **two ways** to experience vReceipt:
 
 2. Open the folders in **Android Studio** and run them using Flutter.
 
+NOTE: For security reasons, you need to configure your own firebase in order to experience the app if you choose to build the app by your own. Therefore, installing the APK directly is recommended.
+
 ---
 
 ## 📌 Why Use vReceipt?
