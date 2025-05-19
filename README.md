@@ -41,6 +41,7 @@ For business owners, this app functions as a complete POS with full transaction 
 * **Sales Analytics** — Revenue insights, top spender reports
 * **Receipt Voiding Control** — Requires customer initiation
 * **Business Profile Control** — Editable metadata (non-ID fields only)
+* **Manual Receipt Delivery via Email Lookup** - Deliver receipt right into customer's app by inputting customer's registered email
 
 ### 2️⃣ vReceipt Customer App
 
@@ -71,37 +72,66 @@ Ensures integrity, trust, and regulatory compliance platform-wide.
 
 * **Benefit:** Protects transaction data from unauthorized access.
 * **Tech:** AES-256 with per-user key isolation; tamper-resistant by design.
+* * **Why It’s Important:**
+	•	Ensures safe receipt transfer
+	•	Maintains data integrity
 
 ### 2. Fraud Prevention Architecture
 
 * **Benefit:** Detects duplicate or manipulated transactions.
 * **Tech:** UUID chains link receipts and prevent unauthorized edits. Receipts are merchant-generated and immutable.
+* * **Why It’s Important:**
+	• Ensures data credibility of both customer and merchant
 
 ### 3. Mutual Consent Voiding
 
 * **Benefit:** Prevents secret cancellation; builds trust.
 * **Tech:** Customer must delete first before merchant can void; voided receipts are kept for audits.
+* * **Why It’s Important:**
+	• Ensures that merchant can't silently void transactions
+	• Prevents warranty claim dismiss by false claiming purchase date
+
 
 ### 4. Cross-Device Notification Sync
 
 * **Benefit:** Full multi-device awareness with accurate sync.
 * **Tech:** Offline queuing with eventual consistency; ensures reliable delivery.
+* * **Why It’s Important:**
+	•	Ensures that customers won't miss their warranty reminder, even when offline
+	• Increases app's consistency through devices
 
 ### 5. Built-In Moderation
 
 * **Benefit:** Keeps the ecosystem clean and compliant.
 * **Tech:** Admins can take direct action against violations.
+* * **Why It’s Important:**
+	• Prevents fraud happening in the platform
+	• Gives legal authorities a control
 
 ### 6. Merchant Discovery
 
 * **Benefit:** Boosts user convenience & merchant exposure.
 * **Tech:** GPS-based discovery of verified shops.
+* * **Why It’s Important:**
+	• Gives publication benefit for merchants
+	• Helps customers to locate merchants
+	•	Increases customers' trust to merchants
 
 ### 7. Merchant Verification & Dynamic Updates
 
 * One merchant/shop per unique ID
 * Real-time info updates via capsule UI without altering receipt history
+* * **Why It’s Important:**
+	•	Prevents fake merchants to popup
+	• Prevents scam / enhancing transaction safety
 
+### 8. Manual Receipt Delivery via Email Lookup
+* **Benefit:** Allows merchants to deliver receipts even if the customer isn’t physically present — great for phone orders, late entry, or follow-ups.
+* **How It Works:** The merchant can manually enter a customer’s registered email, and the receipt will appear directly in the vReceipt Customer App, not the inbox.
+* **Why It’s Important:**
+	•	Supports remote or non-synchronous purchases
+	•	Maintains privacy (no sending sensitive data via email)
+	•	Ensures that customer can get receipt even without having their phone in hand
 ---
 
 ## ✨ Why It’s Different
