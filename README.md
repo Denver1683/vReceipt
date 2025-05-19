@@ -36,6 +36,7 @@ For business owners, this app functions as a complete POS with full transaction 
 #### 💰 Key Features:
 
 * **Stock Management** — Real-time inventory control
+* **Smart Filters** — Search receipts by date, merchant, or price
 * **Barcode Scanning** — Quick product entry and checkout
 * **Secure Transactions** — Tamper-proof QR-based receipts
 * **Sales Analytics** — Revenue insights, top spender reports
@@ -52,7 +53,7 @@ Secure digital receipt management and spending insights for consumers.
 * **Smart Filters** — Search receipts by date, merchant, or price
 * **Favorites** — Pin important receipts for quick access
 * **Expense Analytics** — Monthly spending trends
-* **Warranty Reminders** — Offline-tolerant sync with notifications
+* **Warranty Reminders** — Offline-tolerant sync with notifications, so that notifications work even when offline
 * **Merchant Finder** — Nearby merchant lookup with navigation
 
 ### 3️⃣ vReceipt Admin App
