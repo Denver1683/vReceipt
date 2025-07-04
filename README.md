@@ -41,7 +41,7 @@ For business owners, this app functions as a complete POS with full transaction 
 * **Secure Transactions** — Tamper-proof QR-based receipts
 * **Sales Analytics** — Revenue insights, top spender reports
 * **Receipt Voiding Control** — Requires customer initiation
-* **Business Profile Control** — Editable metadata (non-ID fields only)
+* **Live Business Profile Control** — Editable metadata (non-ID fields only)
 * **Manual Receipt Delivery via Email Lookup** - Deliver receipt right into customer's app by inputting customer's registered email
 
 ### 2️⃣ vReceipt Customer App
@@ -55,6 +55,7 @@ Secure digital receipt management and spending insights for consumers.
 * **Expense Analytics** — Monthly spending trends
 * **Warranty Reminders** — Offline-tolerant sync with notifications, so that notifications work even when offline
 * **Merchant Finder** — Nearby merchant lookup with navigation
+* **Merchant Capsule** — Every receipts has its merchant's details. Merchant Capsule ensures past customers can see the live details updates in the merchant capsule. This may prevent hit-and-run scams.
 
 ### 3️⃣ vReceipt Admin App
 
